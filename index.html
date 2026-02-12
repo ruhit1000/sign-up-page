@@ -31,23 +31,48 @@
 
 <body>
 
-    <main class="grid grid-cols-2 min-h-screen">
+    <main class="grid grid-cols-1 sm:grid-cols-2 min-h-screen">
         <div class="bg-[url(./asset/background.png)] bg-cover bg-no-repeat relative flex justify-center items-center">
             <h1 class="kaushan-script text-5xl font-semibold text-white absolute top-6 left-11">Pisocial</h1>
             <div class="space-y-9">
-                <div class="bg-[#FFFDFD] rounded-xl w-sm py-1 border border-[#CCCCCC] shadow-[2px_4px_6px_0_rgba(79,79,79,0.15)]">
-                    <button class="flex items-center gap-3.5 mx-auto text-[#707070] cursor-pointer"><img src="./asset/Linkedin.svg" alt=""> Sign up with Linkedln</button>
+                <div
+                    class="bg-[#FFFDFD] rounded-xl w-sm py-1 border border-[#CCCCCC] shadow-[2px_4px_6px_0_rgba(79,79,79,0.15)]">
+                    <button class="flex items-center gap-3.5 mx-auto text-[#707070] cursor-pointer"><img
+                            src="./asset/Linkedin.svg" alt=""> Sign up with Linkedln</button>
                 </div>
-                <div class="bg-[#FFFDFD] rounded-xl w-sm py-1 border border-[#CCCCCC] shadow-[2px_4px_6px_0_rgba(79,79,79,0.15)]">
-                    <button class="flex items-center gap-3.5 mx-auto text-[#707070] cursor-pointer"><img src="./asset/twitter.svg" alt=""> Sign up with Twitter</button>
+                <div
+                    class="bg-[#FFFDFD] rounded-xl w-sm py-1 border border-[#CCCCCC] shadow-[2px_4px_6px_0_rgba(79,79,79,0.15)]">
+                    <button class="flex items-center gap-3.5 mx-auto text-[#707070] cursor-pointer"><img
+                            src="./asset/twitter.svg" alt=""> Sign up with Twitter</button>
                 </div>
-                <div class="bg-[#FFFDFD] rounded-xl w-sm py-1 border border-[#CCCCCC] shadow-[2px_4px_6px_0_rgba(79,79,79,0.15)]">
-                    <button class="flex items-center gap-3.5 mx-auto text-[#707070] cursor-pointer"><img src="./asset/Facebook.svg" alt=""> Sign up with Facebook</button>
+                <div
+                    class="bg-[#FFFDFD] rounded-xl w-sm py-1 border border-[#CCCCCC] shadow-[2px_4px_6px_0_rgba(79,79,79,0.15)]">
+                    <button class="flex items-center gap-3.5 mx-auto text-[#707070] cursor-pointer"><img
+                            src="./asset/Facebook.svg" alt=""> Sign up with Facebook</button>
                 </div>
             </div>
         </div>
-        <div>
-            <h1>Hello World</h1>
+        <div class="relative flex justify-center items-center">
+            <img class="absolute top-0 right-0" src="./asset/Group.svg" alt="">
+            <div class="text-center">
+                <h2 class="text-5xl mb-6 font-light text-[#4F4F4F] text-shadow-lg">Sign Up</h2>
+                <h3 class="text-[#4f4f4fcc] font-light text-2xl mb-10 text-shadow-lg">Get started absolutely free</h3>
+                <form class="text-start space-y-9" action="">
+                    <label class="text-[#4F4F4F] text-sm" for="email">Email</label> <br>
+                    <input class="border border-[#CACACA] w-sm h-8 px-2 shadow-[2px_4px_6px_0_rgba(79,79,79,0.15)]"
+                        type="email" id="email"><br>
+                    <label class="text-[#4F4F4F] text-sm" for="password">Password</label> <br>
+                    <input class="border border-[#CACACA] w-sm h-8 px-2 shadow-[2px_4px_6px_0_rgba(79,79,79,0.15)]"
+                        type="password" id="password"><br>
+                    <div class="flex gap-2">
+                        <input type="checkbox" name="" id="">
+                        <p class="text-xs text-[#4F4F4F] font-light text-shadow-md">Creating an account means you’re okay with our Terms of Service, <br>
+                            Privacy Policy, and default Notification Settings</p>
+                    </div>
+                    <button class="bg-[#03A9F4] border border-[#CCCCCC] text-white w-sm rounded-xl py-2 cursor-pointer font-medium shadow-[0_4px_4px_0_rgba(0,0,0,0.25)]">Sign Up</button>
+                </form>
+            </div>
+            <img class="absolute bottom-0 left-0" src="./asset/Group.svg" alt="">
         </div>
     </main>
 
