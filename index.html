@@ -14,11 +14,16 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
         rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap" rel="stylesheet">
 
     <style>
         * {
             font-family: "Roboto", sans-serif;
             font-optical-sizing: auto;
+        }
+
+        .kaushan-script {
+            font-family: "Kaushan Script", cursive;
         }
     </style>
 
@@ -26,7 +31,25 @@
 
 <body>
 
-    
+    <main class="grid grid-cols-2 min-h-screen">
+        <div class="bg-[url(./asset/background.png)] bg-cover bg-no-repeat relative flex justify-center items-center">
+            <h1 class="kaushan-script text-5xl font-semibold text-white absolute top-6 left-11">Pisocial</h1>
+            <div class="space-y-9">
+                <div class="bg-[#FFFDFD] rounded-xl w-sm py-1 border border-[#CCCCCC] shadow-[2px_4px_6px_0_rgba(79,79,79,0.15)]">
+                    <button class="flex items-center gap-3.5 mx-auto text-[#707070] cursor-pointer"><img src="./asset/Linkedin.svg" alt=""> Sign up with Linkedln</button>
+                </div>
+                <div class="bg-[#FFFDFD] rounded-xl w-sm py-1 border border-[#CCCCCC] shadow-[2px_4px_6px_0_rgba(79,79,79,0.15)]">
+                    <button class="flex items-center gap-3.5 mx-auto text-[#707070] cursor-pointer"><img src="./asset/twitter.svg" alt=""> Sign up with Twitter</button>
+                </div>
+                <div class="bg-[#FFFDFD] rounded-xl w-sm py-1 border border-[#CCCCCC] shadow-[2px_4px_6px_0_rgba(79,79,79,0.15)]">
+                    <button class="flex items-center gap-3.5 mx-auto text-[#707070] cursor-pointer"><img src="./asset/Facebook.svg" alt=""> Sign up with Facebook</button>
+                </div>
+            </div>
+        </div>
+        <div>
+            <h1>Hello World</h1>
+        </div>
+    </main>
 
 
 </body>
